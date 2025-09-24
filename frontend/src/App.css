@@ -194,6 +194,21 @@
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
+.search-dropdown option {
+  background: #1e3c72;
+  color: #f1f5f9;
+  padding: 8px 12px;
+  border: none;
+}
+
+.search-dropdown option:hover {
+  background: #2a5298;
+}
+
+.search-dropdown option:checked {
+  background: #3b82f6;
+}
+
 .search-input {
   padding: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
