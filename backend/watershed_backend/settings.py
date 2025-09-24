@@ -46,7 +46,8 @@ if not DEBUG:
 # Application definition
 
 ALLOWED_HOSTS = [
-    "watershed-pym9.onrender.com"
+    "watershed-pym9.onrender.com",
+    "watershed-sepia.vercel.app"
 
 ]
 
