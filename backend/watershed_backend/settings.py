@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-change-this-in-production-' + 'x' * 50)
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # Security settings
 if not DEBUG:
@@ -48,7 +48,6 @@ if not DEBUG:
 ALLOWED_HOSTS = [
     "watershed-pym9.onrender.com",
     "watershed-sepia.vercel.app"
-
 ]
 
 
@@ -79,11 +78,9 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'watershed_backend.urls'
 # CORS Configuration
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React dev server
-    "http://localhost:5173",  # Vite dev server
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:5173",
+   "https://watershed-sepia.vercel.app",
 ]
+
 
 # Add production origins from environment variables
 FRONTEND_URL = os.getenv('FRONTEND_URL', '')
