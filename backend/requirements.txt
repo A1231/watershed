@@ -1,0 +1,41 @@
+# Core Django Framework
+Django==5.2.6
+
+# Django REST Framework for API
+djangorestframework==3.15.2
+
+# CORS headers for cross-origin requests
+django-cors-headers==4.3.1
+
+# PostgreSQL adapter
+psycopg2-binary==2.9.9
+
+# GeoDjango support for PostGIS
+djangorestframework-gis==1.0
+
+# Environment variables management
+python-dotenv==1.0.0
+
+# Supabase client (if you're using Supabase features)
+supabase==2.3.4
+
+# Production server (for deployment)
+gunicorn==21.2.0
+
+# Additional useful packages for production
+# Uncomment these if you need them:
+
+# For better error handling and debugging
+# django-debug-toolbar==4.2.0
+
+# For API documentation
+# drf-spectacular==0.26.5
+
+# For database connection pooling
+# django-db-connection-pool==1.1.5
+
+# For monitoring and logging
+# sentry-sdk==1.38.0
+
+# For health checks
+# django-health-check==3.17.0
