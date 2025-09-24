@@ -46,9 +46,8 @@ if not DEBUG:
 # Application definition
 
 ALLOWED_HOSTS = [
-    "watershed-backend.onrender.com",
-    "localhost",
-    "127.0.0.1",
+    "watershed-pym9.onrender.com"
+
 ]
 
 
