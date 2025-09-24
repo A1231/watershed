@@ -226,7 +226,6 @@ npm run lint:fix
 - **Leaflet.js** - Interactive mapping library
 - **React-Leaflet** - React wrapper for Leaflet
 - **Axios** - HTTP client for API calls
-- **Lucide React** - Beautiful icon library
 - **CSS Grid/Flexbox** - Responsive layout system
 
 ### Backend
@@ -241,7 +240,6 @@ npm run lint:fix
 ### Database
 - **PostgreSQL** - Primary database
 - **PostGIS** - Spatial extensions
-- **SQLite** - Development fallback
 
 ## 🔧 Configuration
 
@@ -357,17 +355,5 @@ For questions or issues:
 - **React** team for the modern UI framework
 - **Vite** for the fast build tool
 
-## 📈 Roadmap
-
-- [ ] **User Authentication**: User accounts and saved searches
-- [ ] **Data Export**: Export watershed data to various formats
-- [ ] **Advanced Filtering**: Filter watersheds by multiple criteria
-- [ ] **Historical Data**: Time-series watershed data
-- [ ] **Mobile App**: React Native mobile application
-- [ ] **API Rate Limiting**: Implement rate limiting for API endpoints
-- [ ] **Caching**: Redis caching for improved performance
-- [ ] **Monitoring**: Application performance monitoring
-
----
 
 **Built with ❤️ for environmental research and water resource management**
